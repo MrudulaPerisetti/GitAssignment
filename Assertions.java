@@ -16,7 +16,7 @@ public class Assertions {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
+	System.ou.println("Hi");	driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
 		Assert.assertFalse(driver.findElement(By.id("ctl00_mainContent_chk_friendsandfamily")).isSelected());
 		System.out.println(driver.findElement(By.id("ctl00_mainContent_chk_friendsandfamily")).isSelected());
 		driver.findElement(By.id("ctl00_mainContent_chk_friendsandfamily")).click();
